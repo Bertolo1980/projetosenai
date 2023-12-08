@@ -1,0 +1,102 @@
+Nov 14 15:57:28 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Attempt to assign property "updateIgnoreColumns" on bool
+    [string:Error:private] => Error: Attempt to assign property "updateIgnoreColumns" on bool in C:\laragon\www\society\chat\lhc_web\cache\compiledtemplates\06cffd4702e07c94cd03fff2ebc2afa5.php:2
+Stack trace:
+#0 C:\laragon\www\society\chat\lhc_web\lib\core\lhcore\lhmodule.php(108): include()
+#1 C:\laragon\www\society\chat\lhc_web\lib\core\lhcore\lhmodule.php(658): erLhcoreClassModule::runModule()
+#2 C:\laragon\www\society\chat\lhc_web\index.php(53): erLhcoreClassModule::moduleInit()
+#3 {main}
+    [code:protected] => 0
+    [file:protected] => C:\laragon\www\society\chat\lhc_web\cache\compiledtemplates\06cffd4702e07c94cd03fff2ebc2afa5.php
+    [line:protected] => 2
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\laragon\www\society\chat\lhc_web\lib\core\lhcore\lhmodule.php
+                    [line] => 108
+                    [function] => include
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\laragon\www\society\chat\lhc_web\lib\core\lhcore\lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\laragon\www\society\chat\lhc_web\index.php
+                    [line] => 53
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+Nov 14 15:57:28 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Attempt to assign property "updateIgnoreColumns" on bool
+    [string:Error:private] => Error: Attempt to assign property "updateIgnoreColumns" on bool in C:\laragon\www\society\chat\lhc_web\cache\compiledtemplates\06cffd4702e07c94cd03fff2ebc2afa5.php:2
+Stack trace:
+#0 C:\laragon\www\society\chat\lhc_web\lib\core\lhcore\lhmodule.php(108): include()
+#1 C:\laragon\www\society\chat\lhc_web\lib\core\lhcore\lhmodule.php(658): erLhcoreClassModule::runModule()
+#2 C:\laragon\www\society\chat\lhc_web\index.php(53): erLhcoreClassModule::moduleInit()
+#3 {main}
+    [code:protected] => 0
+    [file:protected] => C:\laragon\www\society\chat\lhc_web\cache\compiledtemplates\06cffd4702e07c94cd03fff2ebc2afa5.php
+    [line:protected] => 2
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\laragon\www\society\chat\lhc_web\lib\core\lhcore\lhmodule.php
+                    [line] => 108
+                    [function] => include
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\laragon\www\society\chat\lhc_web\lib\core\lhcore\lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\laragon\www\society\chat\lhc_web\index.php
+                    [line] => 53
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
