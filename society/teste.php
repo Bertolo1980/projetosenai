@@ -1,18 +1,14 @@
 <?php
-// Inclua as classes necessárias
-require_once './class/ConexaoBD.php'; // Substitua pelo caminho correto
-require_once './class/leituraGenerico.php'; // Substitua pelo caminho correto
+require_once './class/ConexaoBD.php'; 
+require_once './class/leituraGenerico.php'; 
 
-// Defina as variáveis de data e empresa_id
 $anoAtual = date('Y');
 $mesAtual = date('n');
 $diaAtual = date('j');
 $ano = isset($_GET['ano']) ? $_GET['ano'] : $anoAtual;
 $mes = isset($_GET['mes']) ? $_GET['mes'] : $mesAtual;
 $dia = isset($_GET['dia']) ? $_GET['dia'] : $diaAtual;
-$empresa_id = 1; // Substitua pelo valor correto
-
-// ... Restante do código ...
+$empresa_id = 1;
 
 $horarios = ['13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23'];
 
@@ -24,7 +20,6 @@ echo "<div class='card bg-info-subtle text-white'>";
 echo "<div class='card-body'>";
 echo "<h5 class='card-title'>$dia/$mes/$ano</h5>";
 
-// Criar instância da classe de leitura
 $conexaoBD = new ConexaoBD();
 $leitura = new LeituraGenerico($conexaoBD);
 
