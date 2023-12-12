@@ -9,7 +9,7 @@ include "../include/cabecalho.php"
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
         <h1>Sua reserva,<br>na palma da mão</h1>
         <h2>praticidade e agilidade</h2>
-        <a href="reserva.php" class="btn-get-started">FAÇA SUA RESERVA</a>
+        <a href="#" class="btn-get-started">FAÇA SUA RESERVA</a>
     </div>
 </section><!-- End Hero -->
 
